@@ -18,7 +18,7 @@ RUN apk update && apk add ca-certificates && \
     tar xvfz /tmp/v2ray.tgz -C /usr/bin/v2ray
 
 ADD v2ray.sh /v2ray.sh
-CMD ["/bin/sh", "/v2ray.sh"]
+ENTRYPOINT ["/bin/sh", "/v2ray.sh"]
 
 #ENTRYPOINT ["/usr/bin/v2ray/v2ray"]
 #ENV PATH /usr/bin/v2ray:$PATH

@@ -6,3 +6,4 @@ config/
 Dockerfile
 docker-compose.yml
 README.md
+nginx.conf

@@ -4,7 +4,7 @@ services:
     image: thatszer/v2ray
     container_name: v2ray
     volumes:
-      - ./config/config.json:/config.json
+      - ./config.json:/config.json
     network_mode: host
     command: ["/bin/sh", "/v2ray.sh", "${ID}"]
     restart: always
