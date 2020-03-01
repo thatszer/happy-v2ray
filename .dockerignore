@@ -1,6 +1,8 @@
 .idea/
-config/
+.env-dist
 .gitignore
 .dockerignore
+config/
 Dockerfile
 docker-compose.yml
+README.md
