@@ -6,5 +6,5 @@ services:
     volumes:
       - ./config.json:/config.json
     network_mode: host
-    command: ["/bin/sh", "/v2ray.sh", "${ID}"]
+    command: ["${ID}"]
     restart: always
